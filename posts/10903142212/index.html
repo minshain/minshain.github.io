@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <meta property="og:title" content=" Hugo加github.io安裝 &middot;  Welcome Minshain&#39;s Blog" />
+  
+  <meta property="og:site_name" content="Welcome Minshain&#39;s Blog" />
+  <meta property="og:url" content="https://minshain.github.io/posts/10903142212/" />
+  
+  
+    <meta property="og:type" content="article" />
+    
+    <meta property="og:article:published_time" content="2020-03-14T22:12:17&#43;08:00" />
+    
+  
+
+  <title>
+     Hugo加github.io安裝 &middot;  Welcome Minshain&#39;s Blog
+  </title>
+
+  <link rel="alternative stylesheet" href="https://minshain.github.io/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://minshain.github.io/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://minshain.github.io/css/main.css" />
+  <link rel="stylesheet" href="https://minshain.github.io/css/github.css" />
+  <link rel="stylesheet" href="https://minshain.github.io/css/color-theme.css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
+  <link rel="shortcut icon" href="https://minshain.github.io/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://minshain.github.io/images/apple-touch-icon.png" />
+
+  
+
+  
+</head>
+<body>
+  
+  <header class="global-header"  style="background-image:url(https://minshain.github.io/images/bg.jpg)">
+  
+    <section class="header-text">
+      <h1><a href="https://minshain.github.io/">Welcome Minshain&#39;s Blog</a></h1>
+      
+      
+        <a class="btn btn-default btn-home" href="https://minshain.github.io/">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+          &nbsp;Home
+        </a>
+      
+      
+      <div class="navbar-container">
+        
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </section>
+  </header>
+  <main class="container">
+
+
+
+<article>
+  <header class="article-title">
+    <h1 class="text-primary">Hugo加github.io安裝</h1>
+  </header>
+  <div class="delimiter"></div>
+  <section>
+    <h1 id="step-1-安裝hugo">Step 1: 安裝Hugo</h1>
+<p>安裝hugo，我的作業系統是Win10，並且是使用 <a href="https://chocolatey.org/">chocolatey</a>做管理軟體，安裝Hugo使用下列指令。</p>
+<pre><code>choco install hugo -confirm
+</code></pre><p>或如果你要附加擴充功能 Sass/SCSS 版</p>
+<pre><code>choco install hugo-extended -confirm
+</code></pre><p>如果你是其他的作業系統，請參考<a href="https://gohugo.io/getting-started/installing">HUGO install安裝指南</a>。</p>
+<h1 id="step-2-建立網站資料夾">Step 2: 建立網站資料夾</h1>
+<p>使用命令列提示，建立網站要用的資料夾，使用hugo的指令建立，是為了同時建立網站所需的資料夾結構及相關文件。這邊我們以<code>hugo_blog</code>名稱為例。</p>
+<pre><code>hugo new site hugo_blog
+</code></pre><h1 id="step-3-新增佈景主題">Step 3: 新增佈景主題</h1>
+<p>可參考 <a href="https://themes.gohugo.io">https://themes.gohugo.io</a>看看有那些主題可以使用，我們以<code>hamburg</code>這個主題為範例，新增的方式有兩種:</p>
+<ol>
+<li>使用<code>Git clone下</code>載到themes/hamburg資料夾底下。</li>
+</ol>
+<pre><code>cd hugo_blog
+git init
+git clone https://github.com/hauke96/hugo-theme-hamburg.git themes/hamburg
+</code></pre><ol start="2">
+<li>使用<code>Git Submodule</code>新增連結hamburg專案在themes/hamburg資料夾底下，如果官方更新了程式碼， git submodule 會幫助大家進行程式碼的更新，這樣隨時隨地都可以取得最新的程式碼。</li>
+</ol>
+<pre><code>git submodule add https://github.com/hauke96/hugo-theme-hamburg.git themes/hamburg
+</code></pre><p>新增完必須編輯<code>config.toml</code>，設定使用主題的名稱，可以使用指令直接<code>echo 'theme = &quot;hamburg&quot;' &gt;&gt; config.toml</code>寫入，也可以直接開啟檔案來改。</p>
+<pre><code>baseURL = &quot;https://minshain.github.io/&quot; #改成你github帳號名稱
+languageCode = &quot;zh-tw&quot;
+title = &quot;Welcome My HUGO Blog&quot; #標題可自行更改
+theme = &quot;hamburg&quot; #主題名稱
+</code></pre><h1 id="step-4-新增新文章">Step 4: 新增新文章</h1>
+<pre><code>hugo new posts/my-first-file.md
+</code></pre><p>在時檔案會在<code>content/posts</code>資料夾裡產生，此檔可使用任意文字編輯器打開markdown文件，將 draft 改成 false，文件內容任意更改。</p>
+<pre><code>---
+title: &quot;My First&quot;
+date: 2020-03-14T00:33:10+08:00
+draft: false
+---
+測試部落格
+</code></pre><p>如果<code>draft: true</code>，則在下達hugo server指令時必須加參數 -D，否則不會顯示這篇文章。</p>
+<h1 id="step-5-啟動hugo服務">Step 5: 啟動Hugo服務</h1>
+<pre><code>hugo server -D
+</code></pre><p>系統顯示</p>
+<pre><code>PS D:\hugo_blog&gt; hugo server -D
+
+                   | EN
+-------------------+-----
+  Pages            | 11
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     | 15
+  Processed images |  0
+  Aliases          |  1
+  Sitemaps         |  1
+  Cleaned          |  0
+
+Built in 41 ms
+Watching for changes in C:\Users\minsh\Dropbox\hugo_blog\{archetypes,content,data,layouts,static,themes}
+Watching for config changes in C:\Users\minsh\Dropbox\hugo_blog\config.toml
+Environment: &quot;development&quot;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre><p>開始任意的網路遊覽器，並輸入<a href="http://localhost:1313"><em>http://localhost:1313/</em></a>或 <a href="http://127.0.0.1:1313"><em>http://127.0.0.1:1313</em></a>可以預覽成果。</p>
+<h1 id="step-6-部署到github">Step 6: 部署到GitHub</h1>
+<h2 id="1-在github建立repositories">1. 在GitHub建立Repositories</h2>
+<p>在Github建立<code>你的帳號.github.io</code>(使用自己的GitHub帳號)</p>
+<h2 id="2-建立public資料夾並連結github-上自己帳號的repositories">2. 建立public資料夾，並連結GitHub 上自己帳號的repositories</h2>
+<pre><code>git submodule add -f https://github.com/你的帳號/你的帳號.github.io.git public
+</code></pre><h2 id="3-執行hugo指令">3. 執行Hugo指令</h2>
+<pre><code>hugo
+</code></pre><p>執行<code>hugo</code>指令，自動產生編譯可發佈的檔案至public資料夾</p>
+<h2 id="4-將-public-資料夾上版到github上自己帳號的repositories">4. 將 public 資料夾上版到Github上自己帳號的Repositories</h2>
+<pre><code>cd public
+git init
+git remote add origin https://github.com/你的帳號/你的帳號.github.io.git
+git add .
+git commit -m &quot;It my first Hugo commit&quot;
+git push origin master
+</code></pre><p>完成後，在瀏覽器輸入自己帳號的網址http://你的帳號.github.io，會看到跟本機一樣的部落格。</p>
+<h2 id="5備份">5.備份</h2>
+<p>發佈基本上到上一步驟就完成了，身為一名工程師，養成將網站資料夾上傳到Github上備份，做好版本管理，也是不可缺少的。</p>
+<h3 id="a-在github建立hugo_blog名稱的repositories">a. 在Github建立<code>hugo_blog</code>名稱的Repositories</h3>
+<h3 id="b-hugo_blog資料夾連結到github-上的hugo_blog">b. hugo_blog資料夾連結到GitHub 上的hugo_blog</h3>
+<pre><code>cd ..
+git init
+git remote add origin https://github.com/你的帳號/hugo_blog.git
+</code></pre><h3 id="c-上傳">c. 上傳</h3>
+<pre><code>git add --all
+git commit -m &quot;My hugo_blog file first commit V1090314&quot;
+git push origin master
+</code></pre><h1 id="備註">備註</h1>
+<h2 id="1-新增留言版建立disqushttpshelpdisquscomen帳號之後編輯configtoml">1. 新增留言版，建立<a href="https://help.disqus.com/en/">Disqus</a>帳號，之後編輯config.toml</h2>
+<pre><code>baseURL = &quot;https://你的帳號.github.io/&quot; 
+languageCode = &quot;zh-tw&quot;
+title = &quot;我的第一個部落格&quot;
+theme = &quot;hamburg&quot;
+
+[params]
+disqus = &quot;你的Disqus帳號&quot;
+</code></pre><p>disqus放你的Disqus帳號的<code>Username</code>，在Disqus要先填資料時要在語言的部分，填哪種語言留言板就顯示哪種呈現，請在admin-&gt;Edit Settings-&gt;General裡的Language選擇Chinese，就可顯示中文樣式，目前Disqus沒有繁體中文只有簡體，先將就點用吧。</p>
+<h2 id="2-在文章中新增標籤方便搜尋部落格資料">2. 在文章中新增標籤，方便搜尋部落格資料</h2>
+<pre><code>title: &quot;My First Content&quot;
+date: 2019-05-20T00:33:10+08:00
+draft: false
+tags: [&quot;First&quot;]
+</code></pre><h4 id="參考資料">參考資料</h4>
+<p><a href="https://coolgood88142.github.io/zh-tw/posts/hugo/">https://coolgood88142.github.io/zh-tw/posts/hugo/</a></p>
+<p><a href="https://siddharam.com.tw/post/20190418/">https://siddharam.com.tw/post/20190418/</a></p>
+<p><a href="https://medium.com/@chswei/%E5%9C%A8-github-%E9%83%A8%E7%BD%B2-hugo-%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99-9c40682dfe40">https://medium.com/@chswei/%E5%9C%A8-github-%E9%83%A8%E7%BD%B2-hugo-%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99-9c40682dfe40</a></p>
+
+  </section>
+  <div class="clearfix">
+    
+      <div class="post-date pull-left">
+        <span class="small">
+          Posted on
+          Mar 14, 2020 at 22:12
+        </span>
+      </div>
+    
+    <div class="pull-right">
+      
+    </div>
+  </div>
+  <footer>
+    
+	
+    <div class="delimiter"></div>
+    <div class="pager-container">
+      
+        <a class="btn btn-primary btn-older-posts disabled" href="#">
+          <div>
+            <span aria-hidden="true">&larr;</span> Older Posts
+          </div>
+        </a>
+      
+      
+        <a class="btn btn-primary btn-newer-posts" href="https://minshain.github.io/posts/1090314/">
+          <div>
+            Newer Posts <span aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+      
+    </div>
+  </footer>
+</article>
+<div class="delimiter"></div>
+
+  </main>
+  <footer class="container global-footer">
+    <div class="copyright-note pull-left">
+      
+    </div>
+    <div class="sns-links hidden-print">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  
+  
+  
+
+  
+  
+
+  
+</body>
+</html>
+

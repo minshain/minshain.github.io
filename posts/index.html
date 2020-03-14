@@ -3,9 +3,9 @@
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta property="og:title" content=" Posts &middot;  我的第一個部落格" />
+  <meta property="og:title" content=" Posts &middot;  Welcome Minshain&#39;s Blog" />
   
-  <meta property="og:site_name" content="我的第一個部落格" />
+  <meta property="og:site_name" content="Welcome Minshain&#39;s Blog" />
   <meta property="og:url" content="https://minshain.github.io/posts/" />
   
   
@@ -13,7 +13,7 @@
   
 
   <title>
-     Posts &middot;  我的第一個部落格
+     Posts &middot;  Welcome Minshain&#39;s Blog
   </title>
 
   <link rel="alternative stylesheet" href="https://minshain.github.io/css/bootstrap.min.css" />
@@ -34,7 +34,7 @@
   <header class="global-header"  style="background-image:url(https://minshain.github.io/images/bg.jpg)">
   
     <section class="header-text">
-      <h1><a href="https://minshain.github.io/">我的第一個部落格</a></h1>
+      <h1><a href="https://minshain.github.io/">Welcome Minshain&#39;s Blog</a></h1>
       
       
         <a class="btn btn-default btn-home" href="https://minshain.github.io/">
@@ -63,6 +63,42 @@
 
 <section class="article-list">
   <h1>Posts</h1>
+  
+    <div class="delimiter"></div>
+    <article>
+  <header>
+    <h1 class="li-h1"><a href="https://minshain.github.io/posts/10903142212/">Hugo加github.io安裝</a></h1>
+    <div class="clearfix">
+      <div class="post-date pull-left">
+        <span class="li-small">
+          Posted on
+          Mar 14, 2020 at 22:12
+        </span>
+      </div>
+    </div>
+  </header>
+  <div>
+    
+      Step 1: 安裝Hugo 安裝hugo，我的作業系統是Win10，並且是使用 chocolatey做管理軟體，安裝Hugo使用下列指令。
+choco install hugo -confirm 或如果你要附加擴充功能 Sass/SCSS 版
+choco install hugo-extended -confirm 如果你是其他的作業系統，請參考HUGO install安裝指南。
+Step 2: 建立網站資料夾 使用命令列提示，建立網站要用的資料夾，使用hugo的指令建立，是為了同時建立網站所需的資料夾結構及相關文件。這邊我們以hugo_blog名稱為例。
+hugo new site hugo_blog Step 3: 新增佈景主題 可參考 https://themes.gohugo.io看看有那些主題可以使用，我們以hamburg這個主題為範例，新增的方式有兩種:
+ 使用Git clone下載到themes/hamburg資料夾底下。  cd hugo_blog git init git clone https://github.com/hauke96/hugo-theme-hamburg.git themes/hamburg 使用Git Submodule新增連結hamburg專案在themes/hamburg資料夾底下，如果官方更新了程式碼， git submodule 會幫助大家進行程式碼的更新，這樣隨時隨地都可以取得最新的程式碼。  git submodule add https://github.com/hauke96/hugo-theme-hamburg.git themes/hamburg 新增完必須編輯config.toml，設定使用主題的名稱，可以使用指令直接echo 'theme = &quot;hamburg&quot;' &gt;&gt; config.toml寫入，也可以直接開啟檔案來改。
+baseURL = &quot;https://minshain.github.io/&quot; #改成你github帳號名稱 languageCode = &quot;zh-tw&quot; title = &quot;Welcome My HUGO Blog&quot; #標題可自行更改 theme = &quot;hamburg&quot; #主題名稱 Step 4: 新增新文章 hugo new posts/my-first-file.
+    
+  </div>
+  <footer>
+    <div class="read-more-container">
+      <a class="btn btn-primary" href="https://minshain.github.io/posts/10903142212/">
+        <div>
+          Read more <span aria-hidden="true">&rarr;</span>
+        </div>
+      </a>
+    </div>
+  </footer>
+</article>
+
   
     <div class="delimiter"></div>
     <article>
