@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>我的第一個部落格</title>
+    <link>https://example/</link>
+    <description>Recent content on 我的第一個部落格</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 14 Mar 2020 20:14:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://example/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1090314</title>
+      <link>https://example/posts/1090314/</link>
+      <pubDate>Sat, 14 Mar 2020 20:14:52 +0800</pubDate>
+      
+      <guid>https://example/posts/1090314/</guid>
+      <description>這是我的第一個hugo blog  好的開始 是成功的一半 繼續怒立 認真向學  好的開始 這是一個好的新開始
+printf(&amp;quot;Good star /n&amp;quot;); </description>
+    </item>
+    
+  </channel>
+</rss>
