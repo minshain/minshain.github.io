@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Hugo加github.io安裝</title>
-      <link>https://minshain.github.io/posts/10903142212/</link>
+      <title>Hugo安裝發佈於Github.io</title>
+      <link>https://minshain.github.io/posts/1090314_hguo-install/</link>
       <pubDate>Sat, 14 Mar 2020 22:12:17 +0800</pubDate>
       
-      <guid>https://minshain.github.io/posts/10903142212/</guid>
+      <guid>https://minshain.github.io/posts/1090314_hguo-install/</guid>
       <description>Step 1: 安裝Hugo 安裝hugo，我的作業系統是Win10，並且是使用 chocolatey做管理軟體，安裝Hugo使用下列指令。
 choco install hugo -confirm 或如果你要附加擴充功能 Sass/SCSS 版
 choco install hugo-extended -confirm 如果你是其他的作業系統，請參考HUGO install安裝指南。
@@ -27,11 +27,11 @@ baseURL = &amp;quot;https://minshain.github.io/&amp;quot; #改成你github帳號
     </item>
     
     <item>
-      <title>1090314</title>
-      <link>https://minshain.github.io/posts/1090314/</link>
-      <pubDate>Sat, 14 Mar 2020 20:14:52 +0800</pubDate>
+      <title>模板-用 Hugo 建立部落格 / 網站，每步都有詳細教學</title>
+      <link>https://minshain.github.io/posts/1090314_template/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://minshain.github.io/posts/1090314/</guid>
+      <guid>https://minshain.github.io/posts/1090314_template/</guid>
       <description>這是我的第一個hugo blog  好的開始 是成功的一半 繼續怒立 認真向學  好的開始 這是一個好的新開始
 printf(&amp;quot;Good star /n&amp;quot;); </description>
     </item>
