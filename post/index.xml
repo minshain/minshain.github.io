@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Welcome Minshain&#39;s Blog</title>
+    <link>https://minshain.github.io/post/</link>
+    <description>Recent content in Posts on Welcome Minshain&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://minshain.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>測試以同一目錄實現圖片插入</title>
+      <link>https://minshain.github.io/2020/03/16/test_image_at_same_folder/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/03/16/test_image_at_same_folder/</guid>
+      <description>參考Jeremy的文件管理建議，測試新建資料夾，文章放在index.md，圖片方在同一個資料夾底下引用。 原文參考:https://www.i</description>
+    </item>
+    
+    <item>
+      <title>Hugo安裝發佈於Github.io</title>
+      <link>https://minshain.github.io/post/2020-03-15-hguo_install/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/post/2020-03-15-hguo_install/</guid>
+      <description>Step 1: 安裝Hugo 安裝hugo，我的作業系統是Win10，並且是使用 chocolatey做管理軟體，安裝Hugo使用下列指令。 choco install hugo -confirm 或如果你</description>
+    </item>
+    
+    <item>
+      <title>模板-寫作用模板</title>
+      <link>https://minshain.github.io/2020/03/14/template_for_all/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/03/14/template_for_all/</guid>
+      <description>標題 第一層 第二層 第三層 插入圖片 網路教學建議，在HUGO下文章要插入影片，必較好的方式是在POST下建立一個資料夾，文章放在index.md，</description>
+    </item>
+    
+    <item>
+      <title>部落格使用說明</title>
+      <link>https://minshain.github.io/2020/03/14/blog_use_guide/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/03/14/blog_use_guide/</guid>
+      <description>HELLO WORLD! 這是我的第一個hugo blog 標題 第一層 第二層 第三層 清單有數字 好的開始 是成功的一半 繼續怒立 認真向學 清單沒數字 蘋果 西瓜 葡萄 小程式碼 就像我框在小程</description>
+    </item>
+    
+    <item>
+      <title>如何配置docker使用HTTP代理</title>
+      <link>https://minshain.github.io/2020/01/04/use-docker-behind-http-proxy/</link>
+      <pubDate>Sat, 04 Jan 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/01/04/use-docker-behind-http-proxy/</guid>
+      <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;
+&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;sudo /etc/default/docker
+
+export http_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+export https_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+export HTTP_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>範例:川西密境探險</title>
+      <link>https://minshain.github.io/2020/01/03/may-day-jiulonghu/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/01/03/may-day-jiulonghu/</guid>
+      <description>&lt;h2 id=&#34;寻浮云牧场不遇&#34;&gt;寻浮云牧场不遇&lt;/h2&gt;
+&lt;p&gt;五一节前的一周内，几个朋友就纷纷坐不住了，一个二个不再安心上班，开始在微信群里讨论过节要到哪里耍。
+大家思来想去，最后决定还是去理县方向。因为根据多年自驾的经验，只要出了汶川，沿途都是风景。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vim Tips</title>
+      <link>https://minshain.github.io/2020/01/01/vim-tips/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/01/01/vim-tips/</guid>
+      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://blog.vgod.tw/wp-content/uploads/2009/12/vim-cheat-sheet-full.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Zhaohuabing Blog</title>
+      <link>https://minshain.github.io/2017/11/03/hello-world/</link>
+      <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2017/11/03/hello-world/</guid>
+      <description>“Yeah It&amp;rsquo;s on. ” Hello World!</description>
+    </item>
+    
+  </channel>
+</rss>

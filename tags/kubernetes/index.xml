@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on Welcome Minshain&#39;s Blog</title>
+    <link>https://minshain.github.io/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on Welcome Minshain&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://minshain.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>模板-寫作用模板</title>
+      <link>https://minshain.github.io/2020/03/14/template_for_all/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/03/14/template_for_all/</guid>
+      <description>標題 第一層 第二層 第三層 插入圖片 網路教學建議，在HUGO下文章要插入影片，必較好的方式是在POST下建立一個資料夾，文章放在index.md，</description>
+    </item>
+    
+    <item>
+      <title>部落格使用說明</title>
+      <link>https://minshain.github.io/2020/03/14/blog_use_guide/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/03/14/blog_use_guide/</guid>
+      <description>HELLO WORLD! 這是我的第一個hugo blog 標題 第一層 第二層 第三層 清單有數字 好的開始 是成功的一半 繼續怒立 認真向學 清單沒數字 蘋果 西瓜 葡萄 小程式碼 就像我框在小程</description>
+    </item>
+    
+  </channel>
+</rss>

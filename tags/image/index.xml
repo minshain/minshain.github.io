@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>image on Welcome Minshain&#39;s Blog</title>
+    <link>https://minshain.github.io/tags/image/</link>
+    <description>Recent content in image on Welcome Minshain&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://minshain.github.io/tags/image/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>測試以同一目錄實現圖片插入</title>
+      <link>https://minshain.github.io/2020/03/16/test_image_at_same_folder/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/03/16/test_image_at_same_folder/</guid>
+      <description>參考Jeremy的文件管理建議，測試新建資料夾，文章放在index.md，圖片方在同一個資料夾底下引用。 原文參考:https://www.i</description>
+    </item>
+    
+  </channel>
+</rss>

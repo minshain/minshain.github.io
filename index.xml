@@ -6,34 +6,119 @@
     <description>Recent content on Welcome Minshain&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 14 Mar 2020 22:12:17 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://minshain.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hugo安裝發佈於Github.io</title>
-      <link>https://minshain.github.io/posts/1090314_hguo-install/</link>
-      <pubDate>Sat, 14 Mar 2020 22:12:17 +0800</pubDate>
+      <title>測試以同一目錄實現圖片插入</title>
+      <link>https://minshain.github.io/2020/03/16/test_image_at_same_folder/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://minshain.github.io/posts/1090314_hguo-install/</guid>
-      <description>Step 1: 安裝Hugo 安裝hugo，我的作業系統是Win10，並且是使用 chocolatey做管理軟體，安裝Hugo使用下列指令。
-choco install hugo -confirm 或如果你要附加擴充功能 Sass/SCSS 版
-choco install hugo-extended -confirm 如果你是其他的作業系統，請參考HUGO install安裝指南。
-Step 2: 建立網站資料夾 使用命令列提示，建立網站要用的資料夾，使用hugo的指令建立，是為了同時建立網站所需的資料夾結構及相關文件。這邊我們以hugo_blog名稱為例。
-hugo new site hugo_blog Step 3: 新增佈景主題 可參考 https://themes.gohugo.io看看有那些主題可以使用，我們以hamburg這個主題為範例，新增的方式有兩種:
- 使用Git clone下載到themes/hamburg資料夾底下。  cd hugo_blog git init git clone https://github.com/hauke96/hugo-theme-hamburg.git themes/hamburg 使用Git Submodule新增連結hamburg專案在themes/hamburg資料夾底下，如果官方更新了程式碼， git submodule 會幫助大家進行程式碼的更新，這樣隨時隨地都可以取得最新的程式碼。  git submodule add https://github.com/hauke96/hugo-theme-hamburg.git themes/hamburg 新增完必須編輯config.toml，設定使用主題的名稱，可以使用指令直接echo &#39;theme = &amp;quot;hamburg&amp;quot;&#39; &amp;gt;&amp;gt; config.toml寫入，也可以直接開啟檔案來改。
-baseURL = &amp;quot;https://minshain.github.io/&amp;quot; #改成你github帳號名稱 languageCode = &amp;quot;zh-tw&amp;quot; title = &amp;quot;Welcome My HUGO Blog&amp;quot; #標題可自行更改 theme = &amp;quot;hamburg&amp;quot; #主題名稱 Step 4: 新增新文章 hugo new posts/my-first-file.</description>
+      <guid>https://minshain.github.io/2020/03/16/test_image_at_same_folder/</guid>
+      <description>參考Jeremy的文件管理建議，測試新建資料夾，文章放在index.md，圖片方在同一個資料夾底下引用。 原文參考:https://www.i</description>
     </item>
     
     <item>
-      <title>模板-用 Hugo 建立部落格 / 網站，每步都有詳細教學</title>
-      <link>https://minshain.github.io/posts/1090314_template/</link>
+      <title>Hugo安裝發佈於Github.io</title>
+      <link>https://minshain.github.io/post/2020-03-15-hguo_install/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/post/2020-03-15-hguo_install/</guid>
+      <description>Step 1: 安裝Hugo 安裝hugo，我的作業系統是Win10，並且是使用 chocolatey做管理軟體，安裝Hugo使用下列指令。 choco install hugo -confirm 或如果你</description>
+    </item>
+    
+    <item>
+      <title>模板-寫作用模板</title>
+      <link>https://minshain.github.io/2020/03/14/template_for_all/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://minshain.github.io/posts/1090314_template/</guid>
-      <description>這是我的第一個hugo blog  好的開始 是成功的一半 繼續怒立 認真向學  好的開始 這是一個好的新開始
-printf(&amp;quot;Good star /n&amp;quot;); </description>
+      <guid>https://minshain.github.io/2020/03/14/template_for_all/</guid>
+      <description>標題 第一層 第二層 第三層 插入圖片 網路教學建議，在HUGO下文章要插入影片，必較好的方式是在POST下建立一個資料夾，文章放在index.md，</description>
+    </item>
+    
+    <item>
+      <title>部落格使用說明</title>
+      <link>https://minshain.github.io/2020/03/14/blog_use_guide/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/03/14/blog_use_guide/</guid>
+      <description>HELLO WORLD! 這是我的第一個hugo blog 標題 第一層 第二層 第三層 清單有數字 好的開始 是成功的一半 繼續怒立 認真向學 清單沒數字 蘋果 西瓜 葡萄 小程式碼 就像我框在小程</description>
+    </item>
+    
+    <item>
+      <title>如何配置docker使用HTTP代理</title>
+      <link>https://minshain.github.io/2020/01/04/use-docker-behind-http-proxy/</link>
+      <pubDate>Sat, 04 Jan 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/01/04/use-docker-behind-http-proxy/</guid>
+      <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;
+&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;sudo /etc/default/docker
+
+export http_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+export https_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+export HTTP_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>範例:川西密境探險</title>
+      <link>https://minshain.github.io/2020/01/03/may-day-jiulonghu/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/01/03/may-day-jiulonghu/</guid>
+      <description>&lt;h2 id=&#34;寻浮云牧场不遇&#34;&gt;寻浮云牧场不遇&lt;/h2&gt;
+&lt;p&gt;五一节前的一周内，几个朋友就纷纷坐不住了，一个二个不再安心上班，开始在微信群里讨论过节要到哪里耍。
+大家思来想去，最后决定还是去理县方向。因为根据多年自驾的经验，只要出了汶川，沿途都是风景。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vim Tips</title>
+      <link>https://minshain.github.io/2020/01/01/vim-tips/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/01/01/vim-tips/</guid>
+      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://blog.vgod.tw/wp-content/uploads/2009/12/vim-cheat-sheet-full.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Zhaohuabing Blog</title>
+      <link>https://minshain.github.io/2017/11/03/hello-world/</link>
+      <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2017/11/03/hello-world/</guid>
+      <description>“Yeah It&amp;rsquo;s on. ” Hello World!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://minshain.github.io/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/search/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://minshain.github.io/top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/top/about/</guid>
+      <description>Minghsiang Chen is an ICT veteran with a passion for open source. He has a solid experience in the telecommunication and information technology industry for more than 17 years. Throughout his career, he has built a number of large-scale, cross-country OSS/BSS platforms/systems and operation tools, most of them are still running in productions. He loves open source and has been contributing to a variety of open source projects, including Istio(Service</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://minshain.github.io/top/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/top/books/</guid>
+      <description>Machine learning學習筆記 Coursera 在線課程 Machine learning 筆記講師: 吳恩達(Andrew Ng) 課程地址：https://www.coursera.org/lear</description>
     </item>
     
   </channel>
