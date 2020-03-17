@@ -216,49 +216,61 @@
                 <header>
                     <h2>TOC</h2>
                 </header>
-                <nav id="TableOfContents">
-  <ul>
-    <li><a href="#html-中的數學公式">HTML 中的數學公式</a></li>
-    <li><a href="#markdown-後端">Markdown 後端</a></li>
-    <li><a href="#hugo-的設置">Hugo 的設置</a></li>
-    <li><a href="#數學公式的書寫">數學公式的書寫</a></li>
-  </ul>
-</nav>
+                
                 
                 <h1 id="html-中的數學公式">HTML 中的數學公式</h1>
+
 <p>要在HTML網頁中顯示數學公式並不是很簡單的一件事情，一般最簡單的方法，就是用Word打好後直接複製貼上，或是轉成圖片來做使用，這是最為穩妥一定能夠顯示的方式，但也帶來耗時耗力的困擾，如果數字要更改，更要重新編寫。
 我目前測試成功的方式，是使用<code>MathJax</code>來進行處理，效果和兼容性都還不錯。</p>
+
 <h1 id="markdown-後端">Markdown 後端</h1>
+
 <p>Hugo預設使用的markdown處理後端是Blackfriday，此外也支持使用Mmark．後者是從前者fork而來的．為了避免麻煩，建議在寫包含數學公式的文章時，直接宣告使用Mmark．只需要在markdown文件的front matter裡加上一行：</p>
-<pre><code>markup: mmark
-</code></pre><p>即可切換到Mmark．推薦使用Mmark的原因，主要是無需更多的設定就可以開始寫數學公式了，數學公式全部用<code>兩個錢號(Dollar sign)</code>包圍起來，行內公式和行間公式都是一樣的，區別在於行間公式前後加上一個空行，這樣就可以讓Mmark 自動判斷你需要的是行內公式還是行間公式了．行內公式像這樣 $$f(x) = \sin(x)$$，行間公式的例子：</p>
+<pre><code>markup: mmark</code></pre>
+<p>即可切換到Mmark．推薦使用Mmark的原因，主要是無需更多的設定就可以開始寫數學公式了，數學公式全部用<code>兩個錢號(Dollar sign)</code>包圍起來，行內公式和行間公式都是一樣的，區別在於行間公式前後加上一個空行，這樣就可以讓Mmark 自動判斷你需要的是行內公式還是行間公式了．行內公式像這樣 <span  class="math">\(f(x) = \sin(x)\)</span>，行間公式的例子：</p>
 <pre><code>$$
 f(x) = \sin(x)
-$$
-</code></pre><p>顯示效果為：
-$$
+$$</code></pre>
+<p>顯示效果為：
+<span  class="math">\(
 f(x) = \sin(x)
-$$</p>
-<p>另一個公式</p>
+\)</span></p>
+
+<p>另一個範例，在題目中使用行內公式，及題目後顯示行間公式。</p>
 <pre><code>When $$a \ne 0$$, there are two solutions to `\(ax^2 + bx + c = 0\)` and they are:
 
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
-</code></pre><p>顯示效果為 :
-When $$a \ne 0$$, there are two solutions to <code>\(ax^2 + bx + c = 0\)</code> and they are:</p>
-<p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</p>
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</code></pre>
+<p>顯示效果為 :
+When <span  class="math">\(a \ne 0\)</span>, there are two solutions to <code>\(ax^2 + bx + c = 0\)</code> and they are:</p>
+
+<p><span  class="math">\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\]</span></p>
+
 <h1 id="hugo-的設置">Hugo 的設置</h1>
+
 <p>這個很簡單，只需要在hugo的主題目錄裡，加上一行代碼到你的博文頁面一定會包含的文件裡即可．一般可以選擇加入到themes/cleanwhite/layouts/partials/footer.html裡，這裡的cleanwhite是我使用的hugo主題名稱．需要添加的一行代碼為：</p>
 <pre><code>&lt;!---mathjax 數學公式支援--&gt;
-&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG&quot;&gt;
-&lt;/script&gt;
-</code></pre><p>MathJax還有很多可以設置的選項，這裡不講，因為我也很少用，有興趣的可以參考MathJax的配置．</p>
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG&#34;&gt;
+&lt;/script&gt;</code></pre>
+<p>MathJax還有很多可以設置的選項，這裡不講，因為我也很少用，有興趣的可以參考MathJax的配置．</p>
+
 <h1 id="數學公式的書寫">數學公式的書寫</h1>
-<p>接下來就可以愉快的在markdown 中書寫數學公式了．</p>
+
+<p>接下來就可以愉快的在markdown 中書寫數學公式了。</p>
+
+<h1 id="問與答">問與答</h1>
+
+<ul>
+<li>如果無法顯示行內公式，請查看文章前端是否有加上 <code>markup: mmark</code> 宣告使用格式。</li>
+<li>使用Mmark格式，在cleanwhite主題中，將文章前面將<strong>無法顯示目錄(TOC)</strong>。</li>
+</ul>
+
 <p>參考資料:<br>
 <a href="https://butui.me/post/yet-best-math-formula-support-for-hugo-with-mathjax/">https://butui.me/post/yet-best-math-formula-support-for-hugo-with-mathjax/</a><br>
 <a href="https://gohugo.io/content-management/formats/#mathjax-with-hugo">https://gohugo.io/content-management/formats/#mathjax-with-hugo</a><br>
 <a href="https://docs.mathjax.org/en/latest/index.html">https://docs.mathjax.org/en/latest/index.html</a></p>
+
 <hr>
+
 <p>END</p>
 
 
