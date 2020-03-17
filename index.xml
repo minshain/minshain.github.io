@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>TEST</title>
+      <link>https://minshain.github.io/post/test/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/post/test/</guid>
+      <description>測試開始 第一題 : \[ f(x) = \sin(x) \] 第二題 : When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are: \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\) END</description>
+    </item>
+    
+    <item>
       <title>在Hugo中以Mathjax實現顯示數學式</title>
       <link>https://minshain.github.io/2020/03/17/hugo_with_mathjax/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
