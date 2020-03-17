@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electron Tube on Welcome Minshain&#39;s Blog</title>
+    <link>https://minshain.github.io/tags/electron-tube/</link>
+    <description>Recent content in Electron Tube on Welcome Minshain&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://minshain.github.io/tags/electron-tube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>真空管動作及原理</title>
+      <link>https://minshain.github.io/2020/03/17/electron_tube_ch1/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/2020/03/17/electron_tube_ch1/</guid>
+      <description>真空管的動作原理 熱電子放射 我們在普通物理學中學過，一切物質中的原子係由帶正電的原子核和帶負電的電子集合而成。而物體中有絕緣體和導體之分。絕緣</description>
+    </item>
+    
+  </channel>
+</rss>
