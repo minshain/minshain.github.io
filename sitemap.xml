@@ -13,7 +13,17 @@
   </url>
   
   <url>
+    <loc>https://minshain.github.io/tags/hugo/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minshain.github.io/categories/maker/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/tags/mathjax/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://minshain.github.io/categories/tips/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minshain.github.io/tags/vacuum-tube/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
@@ -38,17 +53,17 @@
   </url>
   
   <url>
+    <loc>https://minshain.github.io/2020/03/17/hugo_with_mathjax/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minshain.github.io/2020/03/17/electron_tube_ch1/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://minshain.github.io/tags/image/</loc>
-    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://minshain.github.io/categories/tips/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url>
   
