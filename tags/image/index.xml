@@ -13,10 +13,10 @@
     
     <item>
       <title>測試以同一目錄實現圖片插入</title>
-      <link>https://minshain.github.io/2020/03/16/test_image_at_same_folder/</link>
+      <link>https://minshain.github.io/post/2020-03-16-test_image_at_same_folder/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://minshain.github.io/2020/03/16/test_image_at_same_folder/</guid>
+      <guid>https://minshain.github.io/post/2020-03-16-test_image_at_same_folder/</guid>
       <description>參考Jeremy的文件管理建議，測試新建資料夾，文章放在index.md，圖片方在同一個資料夾底下引用。 原文參考:https://www.i</description>
     </item>
     

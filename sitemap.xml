@@ -4,7 +4,47 @@
   
   <url>
     <loc>https://minshain.github.io/categories/</loc>
-    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/tags/design/</loc>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/categories/life/</loc>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/tags/logo/</loc>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/post/</loc>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/tags/</loc>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/tags/torpedo/</loc>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/</loc>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/post/2020-03-18-torpedo_mark/</loc>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,26 +68,6 @@
   </url>
   
   <url>
-    <loc>https://minshain.github.io/post/</loc>
-    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://minshain.github.io/tags/</loc>
-    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://minshain.github.io/post/test/</loc>
-    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://minshain.github.io/tags/test/</loc>
-    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://minshain.github.io/categories/tips/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
@@ -58,17 +78,12 @@
   </url>
   
   <url>
-    <loc>https://minshain.github.io/</loc>
+    <loc>https://minshain.github.io/post/2020-03-17-hugo_with_mathjax/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://minshain.github.io/2020/03/17/hugo_with_mathjax/</loc>
-    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://minshain.github.io/2020/03/17/electron_tube_ch1/</loc>
+    <loc>https://minshain.github.io/post/2020-03-17-electron_tube_ch1/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://minshain.github.io/2020/03/16/test_image_at_same_folder/</loc>
+    <loc>https://minshain.github.io/post/2020-03-16-test_image_at_same_folder/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -90,6 +105,11 @@
   <url>
     <loc>https://minshain.github.io/categories/tech/</loc>
     <lastmod>2020-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://minshain.github.io/tags/guide/</loc>
+    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -125,11 +145,6 @@
   <url>
     <loc>https://minshain.github.io/2020/01/04/use-docker-behind-http-proxy/</loc>
     <lastmod>2020-01-04T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://minshain.github.io/categories/life/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>

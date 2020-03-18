@@ -13,10 +13,10 @@
     
     <item>
       <title>在Hugo中以Mathjax實現顯示數學式</title>
-      <link>https://minshain.github.io/2020/03/17/hugo_with_mathjax/</link>
+      <link>https://minshain.github.io/post/2020-03-17-hugo_with_mathjax/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://minshain.github.io/2020/03/17/hugo_with_mathjax/</guid>
+      <guid>https://minshain.github.io/post/2020-03-17-hugo_with_mathjax/</guid>
       <description>HTML 中的數學公式 要在HTML網頁中顯示數學公式並不是很簡單的一件事情，一般最簡單的方法，就是用Word打好後直接複製貼上，或是轉成圖片來做使用</description>
     </item>
     

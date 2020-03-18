@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>design on Welcome Minshain&#39;s Blog</title>
+    <link>https://minshain.github.io/tags/design/</link>
+    <description>Recent content in design on Welcome Minshain&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 18 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://minshain.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>公司徽章設計</title>
+      <link>https://minshain.github.io/post/2020-03-18-torpedo_mark/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/post/2020-03-18-torpedo_mark/</guid>
+      <description>前言 2020年為公司40週年紀念，經過同仁討論，在大家都有興趣且配合小弟的任性下，第一次設計徽章，因為沒啥繪圖軟體的經驗，用了小畫家跟GIM</description>
+    </item>
+    
+  </channel>
+</rss>

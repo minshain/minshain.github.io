@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Welcome Minshain&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://minshain.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>design</title>
+      <link>https://minshain.github.io/tags/design/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logo</title>
+      <link>https://minshain.github.io/tags/logo/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/tags/logo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>torpedo</title>
+      <link>https://minshain.github.io/tags/torpedo/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/tags/torpedo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Electron Tube</title>
@@ -39,15 +66,6 @@
     </item>
     
     <item>
-      <title>test</title>
-      <link>https://minshain.github.io/tags/test/</link>
-      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://minshain.github.io/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Vacuum tube</title>
       <link>https://minshain.github.io/tags/vacuum-tube/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
@@ -62,6 +80,15 @@
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://minshain.github.io/tags/image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>guide</title>
+      <link>https://minshain.github.io/tags/guide/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/tags/guide/</guid>
       <description></description>
     </item>
     
