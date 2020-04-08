@@ -6,10 +6,19 @@
     <description>Recent content on Welcome Minshain&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://minshain.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>二級管構造及種類</title>
+      <link>https://minshain.github.io/post/2020-04-08-electron_tube_ch2/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://minshain.github.io/post/2020-04-08-electron_tube_ch2/</guid>
+      <description>二極管的構造和種類 二極管的構造和特性 如圖2-1所示真空管的構造，是由包含一個能放射電子的絲極和一個吸引電子的屏極所構成。凡僅由絲極和屏極兩極</description>
+    </item>
     
     <item>
       <title>怎樣提升口語能力</title>
