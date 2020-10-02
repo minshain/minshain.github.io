@@ -6,11 +6,7 @@
     <description>Recent content in TECH on Welcome Minshain&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://minshain.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://minshain.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo安裝發佈於Github.io</title>
       <link>https://minshain.github.io/post/2020-03-15-hguo_install/</link>

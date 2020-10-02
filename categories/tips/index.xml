@@ -6,11 +6,7 @@
     <description>Recent content in Tips on Welcome Minshain&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://minshain.github.io/categories/tips/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://minshain.github.io/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Hugo中以Mathjax實現顯示數學式</title>
       <link>https://minshain.github.io/post/2020-03-17-hugo_with_mathjax/</link>
